@@ -5,6 +5,7 @@ const embedEngine = {
     binds() {
         const swiper = new Swiper('.swiper', {
             slidesPerView: 1,
+            spaceBetween: 40,
             pagination: {
                 el: '.swiper-pagination',
             },
@@ -17,7 +18,7 @@ const embedEngine = {
                     slidesPerView: 1,
                 },
                 767: {
-                    slidesPerView: 2,
+                    slidesPerView: 1.42,
                     spaceBetween: 20
                 }
             }

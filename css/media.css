@@ -1,12 +1,12 @@
 @media(max-width: 767px)and (min-device-pixel-ratio: 2),(max-width: 767px)and (-webkit-min-device-pixel-ratio: 2),(max-width: 767px)and (min-resolution: 192dpi),(max-width: 767px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/schloesser-burgen-deutschlands-kulturschaetze-im-vergleich@2x.avif")
+        background-image:url("../img/tui-nordsee-ostsee-index@2x.avif")
     }
 }
 
 @media(min-width: 768px)and (min-device-pixel-ratio: 2),(min-width: 768px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 768px)and (min-resolution: 192dpi),(min-width: 768px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/schloesser-burgen-deutschlands-kulturschaetze-im-vergleich@2x.avif")
+        background-image:url("../img/tui-nordsee-ostsee-index@2x.avif")
     }
 }
 @media screen and (max-width: 768px) {
@@ -17,7 +17,7 @@
         margin-top:47px;
     }
     .hero {
-        background-image: url("../img/schloesser-burgen-deutschlands-kulturschaetze-im-vergleich.avif")
+        background-image: url("../img/tui-nordsee-ostsee-index.avif")
     }
     .hero-title {
         text-shadow:2px 2px 2px rgba(0,0,0,.27)
@@ -40,10 +40,20 @@
         flex-direction: row;
     }
 }
+@media (min-width: 767px) {
+
+    .double-img{
+        flex-direction: row;
+        margin-bottom: 80px;
+    }
+}
 
 @media screen and (min-width: 769px) {
     .section {
         padding: 80px 0;
+    }
+    .embed {
+        margin-bottom: 80px;
     }
     .custom-image-margin {
         margin-bottom: 80px;
@@ -71,7 +81,7 @@
         width: 100%;
     }
     .hero {
-        background-image:url("../img/schloesser-burgen-deutschlands-kulturschaetze-im-vergleich.avif");
+        background-image:url("../img/tui-nordsee-ostsee-index.avif");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -79,6 +89,7 @@
     }
     .logo-hero {
         display:block;
+        opacity: 0;
     }
     .hero-title {
         max-width:836px;
@@ -98,6 +109,7 @@
     }
     .section-bottom{
         margin-bottom: 120px;
+        padding-top: 100px;
     }
 }
 @media(min-width: 1200px) {
@@ -111,7 +123,7 @@
         max-width: 932px
     }
     .hero {
-        background-image:url("../img/schloesser-burgen-deutschlands-kulturschaetze-im-vergleich.avif");
+        background-image:url("../img/tui-nordsee-ostsee-index.avif");
     }
     .hero-title {
         max-width:1100px;
@@ -122,6 +134,9 @@
     .swiper {
         height:753px;
     }
+    .swiper-slide {
+        margin-right: 40px!important;
+    }
     .swiper-button-next, .swiper-button-prev {
         display: flex!important;
     }
@@ -129,6 +144,6 @@
 
 @media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/schloesser-burgen-deutschlands-kulturschaetze-im-vergleich.avif")
+        background-image:url("../img/tui-nordsee-ostsee-index.avif")
     }
 }
